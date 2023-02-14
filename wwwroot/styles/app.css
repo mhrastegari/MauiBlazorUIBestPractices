@@ -56,9 +56,15 @@ html, body {
     flex-direction: column;
 }
 
+.table-item:hover {
+    background-color: whitesmoke;
+}
+
+.table-item:active {
+    background-color: lightgray;
+}
 
 /* Default Blazor styles */
-
 *,
 *::after,
 *::before {
