@@ -6,11 +6,16 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    user-select: none;
-    -webkit-user-select: none;
     overscroll-behavior: none;
     -webkit-tap-highlight-color: transparent;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+* {
+    user-drag: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
 }
 
 .status-bar-safe-area {
