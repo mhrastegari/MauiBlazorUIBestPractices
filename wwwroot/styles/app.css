@@ -57,6 +57,7 @@ html, body {
 }
 
 .table-item:hover {
+    cursor: pointer;
     background-color: whitesmoke;
 }
 
