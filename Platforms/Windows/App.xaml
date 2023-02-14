@@ -4,5 +4,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:maui="using:Microsoft.Maui"
     xmlns:local="using:MauiBlazorUIBestPractices.WinUI">
-
+    <maui:MauiWinUIApplication.Resources>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="WindowCaptionForeground">#ffffff</SolidColorBrush>
+            <SolidColorBrush x:Key="WindowCaptionBackground">#04173D</SolidColorBrush>
+            <SolidColorBrush x:Key="WindowCaptionForegroundDisabled">#ffffff</SolidColorBrush>
+            <SolidColorBrush x:Key="WindowCaptionBackgroundDisabled">#04173D</SolidColorBrush>
+        </ResourceDictionary>
+    </maui:MauiWinUIApplication.Resources>
 </maui:MauiWinUIApplication>
+    
