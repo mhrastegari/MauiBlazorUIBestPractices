@@ -1,6 +1,6 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
-/* Mobile UI modifications */
+/* Mobile and Desktop UI modifications */
 
 html, body {
     margin: 0;
@@ -10,8 +10,7 @@ html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-* {
-    user-drag: none;
+*:not(input) {
     user-select: none;
     -webkit-user-drag: none;
     -webkit-user-select: none;
@@ -64,7 +63,7 @@ html, body {
     background-color: lightgray;
 }
 
-/* Default Blazor styles */
+/* Default Blazor template styles */
 *,
 *::after,
 *::before {
