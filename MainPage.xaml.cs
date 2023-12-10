@@ -20,12 +20,16 @@ public partial class MainPage : ContentPage
 #endif
 
 #if IOS || MACCATALYST
+            handler.PlatformView.ScrollView.Bounces = false;
+
             handler.PlatformView.BackgroundColor = UIKit.UIColor.Clear;
             handler.PlatformView.Opaque = false;
 #endif
 
 #if ANDROID
             handler.PlatformView.SetBackgroundColor(Android.Graphics.Color.Transparent);
+
+            handler.PlatformView.OverScrollMode = Android.Views.OverScrollMode.Never;
 #endif
         });
     }
